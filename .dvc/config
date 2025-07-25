@@ -1,5 +1,6 @@
 [core]
     analytics = false
-    remote = remote_storage
-['remote "remote_storage"']
-    url = ../../dvc_remote
+    remote = origin
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/DridrM/Template_MLOps_accidents.s3
